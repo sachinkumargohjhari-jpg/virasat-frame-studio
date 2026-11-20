@@ -70,4 +70,4 @@ def home():
         except Exception as e:
             ctx["error"] = f"कुछ गड़बड़ हुई: {e}"
     return render_template_string(PAGE, **ctx)
- 
+  
